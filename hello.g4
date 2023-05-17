@@ -1,5 +1,5 @@
 lexer grammar hello;
-PPD: ('#include <stdio.h>'|'#include <stdlib.h>') -> skip;
+PPD: ('#include <stdio.h>'|'#include <stdlib.h>'|'#include <limits.h>'| '#include <time.h>'| '#include <string.h>' | '#include <math.h>'| '#include <assert.h>')->skip;
 CHARKEY:'char';
 INTEGER:'int';
 DOUBLE:'double';
