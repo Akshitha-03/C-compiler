@@ -1,1 +1,1 @@
-# C-compiler
+# C lexer 
